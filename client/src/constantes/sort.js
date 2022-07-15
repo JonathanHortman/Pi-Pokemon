@@ -1,0 +1,8 @@
+export const ASCENDENTE = 'ascendente'
+export const DESCENDENTE = 'descendente'
+export const ALL = 'all'
+export const EXISTENTES = 'existentes'
+export const CREADOS = 'creados'
+export const STRONG = 'strong'
+export const WEAK = 'weak'
+export const NORMAL = 'normal'

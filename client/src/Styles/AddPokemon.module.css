@@ -1,0 +1,562 @@
+.page {
+    background-image: url('https://cdnb.artstation.com/p/assets/images/images/036/465/021/4k/samuel-inkilainen-laboratory.jpg?1617745012&dl=1');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.containerForm {
+    position: fixed;
+    right: 0px;
+    background-image: url('https://media.istockphoto.com/photos/dark-blue-stained-grungy-background-or-texture-picture-id1132593892?k=20&m=1132593892&s=170667a&w=0&h=u7QhzjjimP5J-DbDHl-wpTdbMUcqsjLQyo2hz6Uhuao=');
+    background-position: center center;
+    background-size: cover;
+    width: 500px;
+    height: 900px;
+    margin-left: 940px;
+    z-index: 1;
+}
+
+.contForm {
+    position: fixed;
+    top: 80px
+}
+
+.homeButton {
+    position: fixed;
+    width: 150px;
+    top: 110px;
+    left: 25px;
+}
+
+.homeButton:hover {
+    cursor: pointer;
+    width: 155px;
+}
+
+.column {
+    position: fixed;
+    bottom: 0px;
+    right: 400px;
+    max-height: 900px;
+    z-index: 2;
+}
+
+.profesor {
+    position: fixed;
+    bottom: 0px;
+    right: 630px;
+    height: 500px;
+    transform: scaleX(-1);
+}
+
+.create {
+    position: absolute;
+    top: 14px;
+    right: 650px;
+    width: 770px;
+}
+
+.inputt {
+    position: fixed;
+    right: 130px;
+    border-radius: 15px;
+    border: 1px solid rgb(255, 255, 255);
+}
+
+.inputForm {
+    margin-top: 22px;
+    font-size: 18px;
+}
+
+
+
+
+.classButton {
+    margin-left: 25px;
+}
+
+.typesButton {
+    position: fixed;
+    width: 208px;
+    right: 130px;
+    top: 35px;
+}
+
+.lis {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    position: fixed;
+    top: 625px;
+    right: 166px;
+    color: rgb(255, 255, 255);
+    border-radius: 15px;
+    height: 30px;
+    padding-right: 20px;
+
+}
+
+.createButtonCont {
+    position: fixed;
+    right: 0px;
+    bottom: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 470px;
+    height: 150px;
+}
+
+.createButton {
+
+    border: solid rgba(255, 255, 255, 0.581) 1px;
+    border-radius: 50%;
+    font-size: 15px;
+    text-shadow: 1px 1px 2px rgb(0, 0, 0);
+    font-family: 'Rock Salt', cursive;
+    width: 110px;
+    height: 110px;
+    padding: 5px;
+    color: rgb(253, 253, 253);
+    cursor: pointer;
+    background-image: url('https://i.gifer.com/Uq1m.gif');
+    background-size: cover;
+}
+
+.createButton:hover {
+    transition: ease-in 0, 4s;
+    color: rgb(246, 255, 0);
+    text-shadow: 1px 1px 2px rgb(255, 255, 255);
+    border: solid rgba(255, 242, 0, 0.503) 2px;
+    background-image: url('https://i.gifer.com/Uq1m.gif');
+    background-size: cover;
+}
+
+.exampleConteiner {
+    background-image: url('https://z101digital.com/wp-content/uploads/2019/03/cardiaco.gif');
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: fixed;
+    right: 960px;
+    border: 6px solid rgba(255, 255, 255, 0.598);
+    border-radius: 15px;
+    bottom: 5px;
+    width: 400px;
+    height: 400px;
+    box-shadow: 8px 8px 0.4rem rgba(0, 0, 0, 0.58)
+}
+
+.pokeImage {
+    background-color: white;
+    border: 4px solid rgba(138, 137, 137, 0.598);
+    border-radius: 15px;
+    margin-top: 30px;
+    width: 200px;
+    height: 200px;
+}
+
+
+.defaultImage {
+    background-color: white;
+    border: 4px solid rgba(138, 137, 137, 0.598);
+    border-radius: 15px;
+    margin-top: 30px;
+    width: 200px;
+    height: 200px;
+}
+
+.typesConteiner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 35px;
+    background-color: rgba(255, 255, 255, 0.35);
+    border-top: 1px solid rgba(255, 255, 255, 0.617);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.617);
+    padding-bottom: 15px;
+    height: 90px;
+    width: 100%;
+}
+
+.type {
+    display: inline-flex;
+    align-items: center;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.errorText {
+    background-color: rgb(255, 255, 255);
+    position: fixed;
+    border-radius: 15px;
+    padding: 10px;
+    border: solid rgb(0, 0, 0) 2px;
+    right: 855px;
+    bottom: 400px;
+    color: rgb(255, 0, 0);
+    font-size: 19px;
+}
+
+.finishMessage {
+    color: green;
+}
+
+
+.electric {
+    display: flex;
+    background-image: url('../images/types_logos/electric.png');
+    background-size: 3.8em;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-width: 65px;
+    min-height: 90px;
+    margin: 2px;
+}
+
+.normal {
+    background-image: url('../images/types_logos/normal.png');
+    background-size: 3.8em;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-width: 65px;
+    min-height: 90px;
+    margin: 2px;
+}
+
+.fighting {
+    background-image: url('../images/types_logos/fighting.png');
+    background-size: 3.8em;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-width: 65px;
+    min-height: 90px;
+    margin: 2px;
+}
+
+.bug {
+    background-image: url('../images/types_logos/bug.png');
+    background-size: 3.8em;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-width: 65px;
+    min-height: 90px;
+    margin: 2px;
+}
+
+.dark {
+    background-image: url('../images/types_logos/dark.png');
+    background-size: 3.8em;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-width: 65px;
+    min-height: 90px;
+    margin: 2px;
+}
+
+.dragon {
+    background-image: url('../images/types_logos/dragon.png');
+    background-size: 3.8em;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-width: 65px;
+    min-height: 90px;
+    margin: 2px;
+}
+
+.fairy {
+    background-image: url('../images/types_logos/fairy.png');
+    background-size: 3.8em;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-width: 65px;
+    min-height: 90px;
+    margin: 2px;
+}
+
+.fire {
+    background-image: url('../images/types_logos/fire.png');
+    background-size: 3.8em;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-width: 65px;
+    min-height: 90px;
+    margin: 2px;
+}
+
+.flying {
+    background-image: url('../images/types_logos/flying.png');
+    background-size: 3.8em;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-width: 65px;
+    min-height: 90px;
+    margin: 2px;
+}
+
+.ghost {
+    background-image: url('../images/types_logos/ghost.png');
+    background-size: 3.8em;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-width: 65px;
+    min-height: 90px;
+    margin: 2px;
+}
+
+.grass {
+    background-image: url('../images/types_logos/grass.png');
+    background-size: 3.8em;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-width: 65px;
+    min-height: 90px;
+    margin: 2px;
+}
+
+.ground {
+    background-image: url('../images/types_logos/ground.png');
+    background-size: 3.8em;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-width: 65px;
+    min-height: 90px;
+    margin: 2px;
+}
+
+.ice {
+    background-image: url('../images/types_logos/ice.png');
+    background-size: 3.8em;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-width: 65px;
+    min-height: 90px;
+    margin: 2px;
+}
+
+.poison {
+    background-image: url('../images/types_logos/poison.png');
+    background-size: 3.8em;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-width: 65px;
+    min-height: 90px;
+    margin: 2px;
+}
+
+.psychic {
+    background-image: url('../images/types_logos/psychic.png');
+    background-size: 3.8em;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-width: 65px;
+    min-height: 90px;
+    margin: 2px;
+}
+
+.rock {
+    background-image: url('../images/types_logos/rock.png');
+    background-size: 3.8em;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-width: 65px;
+    min-height: 90px;
+    margin: 2px;
+}
+
+.shadow {
+    background-image: url('../images/types_logos/shadow.png');
+    background-size: 3.8em;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-width: 65px;
+    min-height: 90px;
+    margin: 2px;
+}
+
+.steel {
+    background-image: url('../images/types_logos/steel.png');
+    background-size: 3.8em;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-width: 65px;
+    min-height: 90px;
+    margin: 2px;
+}
+
+.unknown {
+    background-image: url('../images/types_logos/unknown.png');
+    background-size: 3.8em;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-width: 65px;
+    min-height: 90px;
+    margin: 2px;
+}
+
+.water {
+    background-image: url('../images/types_logos/water.png');
+    background-size: 3.8em;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-width: 65px;
+    min-height: 90px;
+    margin: 2px;
+}
+
+@keyframes slidebg {
+    to {
+        background-position: 25vw;
+    }
+}
+
+@media (max-width: 600px) {
+
+
+    .containerForm {
+        position: fixed;
+        right: 0px;
+        background-image: url('https://img.freepik.com/free-vector/abstract-pattern-background_81724-3.jpg?size=626&ext=jpg');
+        background-position: center center;
+        background-size: cover;
+        width: 500px;
+        height: 900px;
+        margin-left: 940px;
+    }
+
+    .create {
+        position: fixed;
+        top: 10px;
+        right: 0px;
+        width: 100%;
+        z-index: 1;
+    }
+
+    .errorText {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: rgb(255, 255, 255);
+        border-radius: 15px;
+        padding: 10px;
+        border: solid rgb(0, 0, 0) 2px;
+        top: 75px;
+        right: 0px;
+        width: 100%;
+        max-height: 86px;
+        color: rgb(255, 0, 0);
+        font-size: 19px;
+    }
+
+    .typesButton {
+        position: fixed;
+        width: 100%;
+        height: 33px;
+        top: 180px;
+        right: 0px;
+        border-radius: 15px;
+    }
+
+    .contForm {
+        position: fixed;
+        top: 230px;
+        width: 100%;
+    }
+
+    .inputForm {
+        margin-top: 2px;
+        font-size: 18px;
+        width: 100%;
+    }
+
+    .inputt {
+        position: fixed;
+        right: 0px;
+        width: 100%;
+        border: 2px solid black;
+    }
+
+    .typesConteiner {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: fixed;
+        background-color: rgba(255, 255, 255, 0.426);
+        padding-bottom: 15px;
+        height: 90px;
+        width: 100%;
+        right: 0px;
+        top: 590px;
+    }
+
+    .type {
+        display: inline-flex;
+        align-items: center;
+        font-size: 20px;
+        margin-bottom: 5px;
+    }
+
+
+
+
+    .createButtonCont {
+        position: fixed;
+        top: 700px;
+        right: 0px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+
+    .createButton {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: fixed;
+        border: solid rgb(255, 255, 255) 1px;
+        border-radius: 50%;
+        font-size: 15px;
+        text-shadow: 1px 1px 2px rgb(0, 0, 0);
+        font-family: 'Rock Salt', cursive;
+        width: 110px;
+        height: 110px;
+        padding: 5px;
+        margin-left: 200px;
+        color: rgb(253, 253, 253);
+        cursor: pointer;
+        background-image: url('https://i.gifer.com/Uq1m.gif');
+        background-size: cover;
+    }
+
+    .createButton:hover {
+        transition: ease-in 0, 4s;
+        color: rgb(246, 255, 0);
+        border: solid rgba(255, 242, 0, 0.503) 2px;
+        text-shadow: 1px 1px 2px rgb(255, 255, 255);
+        background-image: url('https://i.gifer.com/Uq1m.gif');
+        background-size: cover;
+    }
+
+    .homeButton {
+        position: fixed;
+        top: 720px;
+        right: 20px;
+        z-index: 1;
+    }
+
+
+
+    .column {
+        display: none;
+    }
+
+    .profesor {
+        display: none;
+    }
+
+}

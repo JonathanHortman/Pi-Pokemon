@@ -1,0 +1,298 @@
+.containerCard {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+  padding: 10px 80px 20px;
+  grid-gap: 30px 30px;
+  justify-content: center;
+  margin: 1px;
+}
+
+.loaderPhone {
+  display: none;
+}
+
+
+.pokeHomeImg {
+  margin-left: 5px;
+  width: 45px;
+  height: 45px;
+}
+
+.navConteiner {
+  display: flex;
+  height: 70px;
+  width: 100%;
+  background-color: rgb(12, 8, 87);
+  border-bottom: solid 1px white;
+  flex-direction: row;
+  justify-content: left;
+  align-items: center;
+}
+
+/* form {
+  margin-left: 40px;
+  margin-right: 120px;
+} */
+
+.input {
+  position: relative;
+  bottom: 1px;
+  right: 1px;
+  height: 24px;
+
+}
+
+.search {
+  margin-left: 2px;
+  height: 28px;
+  font-family: 'Varela Round', sans-serif;
+  font-size: 15px;
+  border: solid white 1px;
+}
+
+.search:hover {
+  background-color: rgb(247, 223, 9);
+  color: rgb(0, 0, 0);
+  font-size: 15px;
+  height: 29px;
+  border: solid white 1px;
+  cursor: pointer;
+  transition: ease-in 0.1s;
+}
+
+
+select {
+  border: solid white 1px;
+  margin-left: 20px;
+  background-color: rgb(15, 7, 174);
+  padding: 5px;
+  font-size: 15px;
+  color: white;
+  font-family: 'Varela Round', sans-serif;
+  border-radius: 20px;
+}
+
+select:hover {
+  cursor: pointer;
+  background-color: white;
+  color: black;
+  transition: ease-in 0.2s;
+}
+
+.fantasmaGif {
+
+  margin-left: 400px;
+  position: absolute;
+}
+
+.cargandoGif {
+
+  margin-top: 420px;
+  margin-left: 430px;
+
+}
+
+
+.paginado {
+  margin-top: 45px;
+  margin-bottom: 45px;
+}
+
+.createButtonPhone {
+  display: none;
+}
+
+.createButton {
+  background-color: rgba(166, 6, 6, 0.914);
+  border: solid rgb(255, 255, 255) 1px;
+  border-radius: 20px;
+  font-size: 15px;
+  font-family: 'Varela Round', sans-serif;
+  padding: 5px;
+  height: 35px;
+  width: 250px;
+  margin-left: 200px;
+  color: #fff;
+  cursor: pointer;
+}
+
+
+.createButton:hover {
+  transition: ease-in 1s;
+  color: black;
+  background-image: linear-gradient(90deg, #00C0FF 0%, #FFCF00 49%, #FC4F4F 80%, #00C0FF 100%);
+  animation: slidebg 5s linear infinite;
+  border: solid rgb(255, 255, 255) 1px;
+  text-shadow: 1px 1px 2px rgb(255, 255, 255);
+}
+
+.conteiner {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-top: 242px;
+  background-color: rgb(6, 6, 6);
+  border-top: solid 1px white;
+  height: 60px;
+}
+
+.lista {
+  position: absolute;
+  left: 60px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  list-style: none;
+  color: white;
+}
+
+.lista1 {
+  max-width: 300px;
+  margin-top: 13px;
+}
+
+
+
+
+.imgredes1 {
+  display: flex;
+  background-color: rgb(236, 220, 4);
+  border: solid 1px white;
+  border-radius: 100%;
+  width: 45px;
+}
+
+.imgredes2 {
+  background-color: rgb(236, 220, 4);
+  border: solid 1px white;
+  border-radius: 100%;
+  width: 45px;
+  margin-left: 10px;
+}
+
+.imgredes1:hover {
+  background-color: white;
+  border: solid 1px rgb(236, 220, 4);
+}
+
+.imgredes2:hover {
+  background-color: white;
+  border: solid 1px rgb(236, 220, 4);
+
+}
+
+.posImagen {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  position: absolute;
+  right: 80px;
+}
+.lista1phone{
+  display: none;
+}
+
+
+@keyframes slidebg {
+  to {
+    background-position: 25vw;
+  }
+}
+
+@media (max-width: 600px) {
+  .containerCard {
+    display: flex;
+    flex-direction: column;
+    margin-right: 35px;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .createButtonPhone {
+    display: flex;
+    background-color: rgb(15, 7, 174);
+    border: solid rgb(255, 255, 255) 1px;
+    text-decoration: none;
+    border-radius: 20px;
+    font-size: 17px;
+    font-family: 'Varela Round', sans-serif;
+    padding: 5px;
+    height: 35px;
+    max-width: 150px;
+    color: #fff;
+  }
+
+  .createButton {
+    display: none;
+  }
+
+
+  .fantasmaGif {
+    display: none
+  }
+
+
+  .input {
+    position: relative;
+    bottom: -14px;
+    left: -40px;
+    height: 24px;
+  }
+
+  .search {
+    margin-left: 150px;
+    height: 28px;
+    font-family: 'Varela Round', sans-serif;
+    font-size: 15px;
+    border: solid white 1px;
+  }
+
+
+  .conteiner {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+  }
+
+  .loaderPhone {
+    display: flex;
+    position: fixed;
+    width: 222px;
+    top: 150px;
+    left: 80px;
+  }
+
+  .cargandoGif {
+    display: none;
+  }
+
+
+
+  .lista1 {
+    display: none;
+    position: absolute;
+    left: -60px;
+    width: 300px;
+  }
+
+  .lista1phone{
+    display: flex;
+    align-items: center;
+    position: absolute;
+    font-size: 20px;
+    margin-top: 20px;
+    left: -55px;
+    width: 300px;
+    height: 45px;
+  }
+
+  .posImagen {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    position: absolute;
+    right: 30px;
+  }
+}

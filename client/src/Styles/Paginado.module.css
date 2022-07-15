@@ -1,0 +1,47 @@
+ul{
+    padding: 0px;
+}
+
+.compUl {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    width: 100%;
+   
+}
+
+.number{
+    list-style: none;
+}
+
+.numero {
+    display: flex;
+    justify-content: center;
+    border: solid rgb(255, 255, 255) 1px;
+    border-radius: 50%;
+    align-items: center;
+    padding-left: 3px;
+    padding-right: 3px;
+    margin-left: 3px;
+    width: 29px;
+    height: 28px;
+    background-color: rgb(15, 7, 174);
+    color: white;
+    list-style: none;
+    font-size: 20px;
+    font-size: 20px;
+}
+
+.numero:hover {
+    transition: ease-in 0.1s;
+    cursor: pointer;
+    border: 1px solid #fff;
+    background-color: rgb(253, 253, 253);
+    color: rgb(0, 0, 0);
+}
+
+.pagConteiner{
+    display: flex;
+    justify-content: center;
+
+}

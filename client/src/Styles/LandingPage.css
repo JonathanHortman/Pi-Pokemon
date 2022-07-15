@@ -1,0 +1,96 @@
+.pageImg {
+    background-image: url('https://wallpaperaccess.com/full/512679.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.videoTag {
+    margin-right: 1px;
+
+}
+
+
+.pokemon {
+    top: 15px;
+    right: 35px;
+    width: 470px;
+    position: absolute;
+}
+
+
+
+.pokeball {
+    position: absolute;
+    width: 200px;
+    right: 620px;
+    bottom: 305px;
+}
+
+.pokeball:hover {
+    transform: rotate(1000000deg);
+    transition: ease-in 170s;
+    cursor: pointer;
+    position: fixed;
+}
+
+.pokeballPhone {
+    display: none;
+}
+
+@media (max-width: 600px) {
+
+    .videoTag {
+        display: none;
+    }
+
+    .pageImg {
+        background-image: url('https://www.wallpapertip.com/wmimgs/81-812800_background-8-bit-cloud.jpg');
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+        height: 100vh;
+        width: 100vw;
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    .pokemon {
+        position: fixed;
+        top: 10px;
+        right: 0px;
+        width: 100%;
+    }
+
+    .pokeCont {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 150px;
+        width: 100vw;
+    }
+
+    .pokeballPhone {
+        display: flex;
+    }
+
+    .pokeball {
+        display: none;
+        position: absolute;
+        width: 200px;
+        right: 577px;
+        bottom: 283px;
+    }
+
+    .pokeball:hover {
+        transform: rotate(1000000deg);
+        transition: ease-in 170s;
+        cursor: pointer;
+        position: fixed;
+    }
+
+}

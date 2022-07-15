@@ -1,0 +1,252 @@
+.page {
+    background-image: url('https://browsecat.net/sites/default/files/pokemon-grass-background-128740-205985-9449412.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.goHome {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    width: 150px;
+    z-index: 2;
+}
+
+.goHome:hover {
+    cursor: pointer;
+    width: 155px;
+}
+
+.loader {
+    position: absolute;
+    right: 40px;
+    bottom: 50px;
+    height: 200px;
+}
+
+.loader2 {
+    position: absolute;
+    right: 145px;
+    bottom: 240px;
+    height: 70px;
+}
+
+
+.col1 {
+    position: absolute;
+    bottom: 553px;
+    right: 450px;
+}
+
+.col2 {
+    position: absolute;
+    bottom: 530px;
+    right: 350px;
+}
+
+
+.col3 {
+    position: absolute;
+    bottom: 529px;
+    right: 240px;
+}
+
+.col4 {
+    position: absolute;
+    bottom: 528px;
+    right: 130px;
+}
+
+.col6 {
+    position: absolute;
+    top: -654px;
+    right: -10px;
+}
+
+.ash{
+    display: none;
+}
+
+
+.pokedex {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 650px;
+    z-index: 1;
+}
+
+.name {
+    position: fixed;
+    left: 420px;
+    bottom: 200px;
+    font-size: 30px;
+    color: blue;
+    font-family: 'Permanent Marker', cursive;
+    z-index: 2;
+}
+
+.animatedImg {
+    position: fixed;
+    bottom: 200px;
+    left: 100px;
+    height: 130px;
+    z-index: 2;
+}
+
+.cuadro {
+    position: absolute;
+    bottom: 550px;
+    left: 61px;
+    width: 590px;
+}
+
+.contDetails {
+    position: absolute;
+    bottom: 50px;
+    left: 600px;
+    color: rgb(0, 0, 0);
+    text-shadow: 1.5px 1.5px 1px rgb(255, 255, 255);
+}
+
+.bigImage {
+    position: absolute;
+    width: 350px;
+    right: 70px;
+    bottom: 30px;
+}
+
+.conteinerDescriptionPhone {
+    display: none;
+}
+
+@media (max-width: 600px) {
+    .page {
+        background-image: url('https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/416e0746-bae7-42b0-9291-df457f485ee7/derwvdb-5c96b4d5-9a24-4057-a5d0-f9fb1f58e343.png/v1/fill/w_607,h_1315,q_70,strp/pokemon_grass_texture_wallpaper_by_crystaelart_derwvdb-pre.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MTc5MiIsInBhdGgiOiJcL2ZcLzQxNmUwNzQ2LWJhZTctNDJiMC05MjkxLWRmNDU3ZjQ4NWVlN1wvZGVyd3ZkYi01Yzk2YjRkNS05YTI0LTQwNTctYTVkMC1mOWZiMWY1OGUzNDMucG5nIiwid2lkdGgiOiI8PTgyOCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.svb8lFIp3pCmZZpN3kf3jK9YuoE3y5OSvShsnZtNsSA');
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+        height: 100vh;
+        width: 100vw;
+        display: flex;
+        justify-content: flex-end;
+    }
+
+
+    .ash{
+        display: flex;
+        position: fixed;
+        bottom: 180px;
+        right: 20px;
+        width: 200px;
+    }
+
+
+
+
+    .bigImage {
+        display: fixed;
+        top: 5px;
+        left: 5px;
+        width: 220px;
+        z-index: 1;
+    }
+
+    .contDetails {
+        background-image: url('../images/cuadro2.png');
+        /* background-attachment: fixed; */
+        background-size: cover;
+        width: 100%;
+        height: 143px;
+        position: fixed;
+        left: 0px;
+        bottom: 30px;
+    }
+
+
+    .col1 {
+        width: 60px;
+        height: 120px;
+        position: fixed;
+        left: 275px;
+        bottom: 39px;
+    }
+
+    .col2 {
+        width: 60px;
+        height: 120px;
+        position: fixed;
+        left: 35px;
+        bottom: 39px;
+    }
+
+
+    .col3 {
+        position: fixed;
+        width: 60px;
+        height: 120px;
+        left: 115px;
+        bottom: 39px;
+    }
+
+    .col4 {
+        position: fixed;
+        width: 60px;
+        height: 120px;
+        left: 195px;
+        bottom: 39px;
+    }
+
+    .col6 {
+        position: fixed;
+        width: 60px;
+        height: 120px;
+        left: 340px;
+        bottom: 0;
+    }
+
+    .pokedexConteiner {
+        display: none;
+    }
+
+    .cuadro {
+        display: none;
+    }
+
+    .goHome {
+        position: fixed;
+        right: 20px;
+        top: 10px;
+    }
+
+    .name{
+        display: flex;
+        position: fixed;
+        left: 10px;
+        bottom: 174px;
+    }
+
+    .loader {
+        position: absolute;
+        left: 0px;
+        bottom: 400px;
+        width: 100%;
+    }
+    
+    .loader2 {
+        display: none;
+        position: absolute;
+        right: 145px;
+        bottom: 240px;
+        height: 70px;
+    }
+
+    .animatedImg{
+        display: none;
+    }
+}
